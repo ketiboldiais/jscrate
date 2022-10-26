@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "module": "ES2020",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "ES2020",
+    "noImplicitAny": true,
+    "moduleResolution": "Node",
+    "sourceMap": false,
+    "outDir": "dist",
+    "alwaysStrict": true,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": false,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+    "rootDir": "src",
+    "baseUrl": ".",
+    "paths": {
+      "*": ["node_modules/*"],
+      "@aux": ["src/crates/aux", "src/crates/aux/*"],
+      "@type": ["src/types", "src/types/*"],
+      "@typecheck": ["src/typecheck"],
+      "@num": ["src/num", "src/num/*"],
+      "@str": ["src/str", "src/str/*"],
+      "@util": ["src/util"],
+      "@sort": ["src/sort", "src/sort/*"],
+      "@crates": ["src/crates", "src/crates/*"]
+    }
+  },
+  "include": ["src/**/*", "canvases/StrClass.ts", "canvases/_str"],
+  "exclude": ["./canvases"]
+}

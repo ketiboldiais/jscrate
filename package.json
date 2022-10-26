@@ -1,0 +1,12 @@
+{
+  "name": "jscrate",
+  "version": "1.0.0",
+  "description": "JScrates is a Rust library of various containers and algorithms. These are containers I created to solve various problems in certain projects, and I decided it'd be best to put all of them into a separate repository rather than copying files over from different modules.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
