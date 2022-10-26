@@ -32,6 +32,6 @@
       "@crates": ["src/crates", "src/crates/*"]
     }
   },
-  "include": ["src/**/*", "canvases/StrClass.ts", "canvases/_str"],
-  "exclude": ["./canvases"]
+  "include": ["src/**/*", "src/tests/canvases/StrClass.ts", "src/tests/canvases/_str"],
+  "exclude": ["src/tests/canvases"]
 }
